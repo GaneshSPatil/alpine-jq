@@ -3,6 +3,28 @@ Docker image for [jq](http://stedolan.github.io/jq/) based on [alpine linux](htt
 
 This image also contains [curl](https://curl.haxx.se/) to make HTTP requests and [bash](https://www.gnu.org/software/bash/).
 
+# Docker Image
+You could either download the latest built image from docker hub or build one locally with the Dockerimage.
+
+## 1.1 Download the latest Image
+
+```
+docker pull ganeshpl/alpine-jq
+```
+
+## 1.2 Build One Locally
+
+```
+docker build -t <TAG_NAME> .
+```
+
+# Usage
+Start the container with this:
+
+```
+docker run -it alpine-jq /bin/bash
+```
+
 # License
 
 ```
